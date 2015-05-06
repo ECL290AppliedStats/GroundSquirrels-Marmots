@@ -19,6 +19,28 @@ What is the most important habitat as a predictor of presence?
  
 Choosing scale - at some point you'll have to decide at what scale you're going to calculate habitat type percentage (i.e. percent meadow at 10m, 20m, etc).  Looking at different scales might be a good thing to do - try the model at varying scales.  If you're having very different results, that might even be helpful - there could potentially be a scale that the squirell is responding to that you didn't sample.
 
+From Emilio:
+
+Y ~ X
+Y = presence/absence (1/0).  Could also be some aggregation (1/0 across entire transect, 1/0 at 25m point-circle, etc.  Have to define the scale that 1 or 0 is representing).  You could also put presence/absence as a detectability parameter in the Xs.
+
+
+From Richard:
+This is continuous - continuous probability of detection along the transect.  There is no sampling unit.  You can calculate the cumulative probability of detecting a marmot and you don't have to worry about sampling unit.  The instantaneous rate function changes when you change habitat.  
+
+From Emilio:
+Inhomogeneous Poisson Process - if you assume the probability of detecting a marmot in any particular section is constant, then you would pick them up in a Poisson distribution of marmots as you walk the transect.
+
+Sum Sign Y ~ f(lambda sub x)
+x = place
+Nx ~ Poi(lambda sub x)
+Lambda sub x ~ [Nm, Nc, Nr, Ns]
+
+Nm = number of squirrels in meadow
+Nc = number of squirrels in conifers
+Nr = rock, etc.
+
+Count how many you got in each one of the different places.
 
  
  
