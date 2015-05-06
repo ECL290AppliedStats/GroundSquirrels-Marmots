@@ -34,13 +34,13 @@ Inhomogeneous Poisson Process - if you assume the probability of detecting a mar
 Sum Sign Y ~ f(lambda sub x)
 x = place
 Nx ~ Poi(lambda sub x)
-Lambda sub x ~ [Nm, Nc, Nr, Ns]
+Lambda sub x ~ [Nm, Nc, Nr, Ns] -> = meadow * elevation, time of day, %meadow, %other, elevation, etc.  
 
 Nm = number of squirrels in meadow
 Nc = number of squirrels in conifers
 Nr = rock, etc.
 
-Count how many you got in each one of the different places.
+Count how many you got in each one of the different places.  Make sure you're including parameters that work as proxies of the different processes that would determine whethe ryou see a squirrel or not.
 
  
  
