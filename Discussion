@@ -1,0 +1,25 @@
+
+David Pavlacky - paper that uses a removal estimator, which allows you to account for whether your detections are independent of one another not.
+
+Add "siesta" or time of day as a covariate.
+
+Middle of the transect may often be the highest in elevation - therefore not exchangeable with the rest of the transect.  Calculate the diversity index of your transect - something that normalizes your habitat variability.  You need to know whether one transect was very diverse relative to the rest of the transects.  This might help get at the timing bias of the surveys.  Knowing how heterogeneity changes over each transect would be valuable - are the all consistent, or are some very different, and is that driving detectability?
+
+Measuring heterogeneity: CalVeg, fine-scale vegetation data from points, National Agricultural Image Program (2005 & 2010) - can plug that into Fragstat (program) to spit out a bunch of metrics.
+
+What is the most important habitat as a predictor of presence?
+
+ - Account for detectability (check mark-recapture literature).   
+ Presence ~ amount of habitat A * coefficient + amount of habitat B * coefficient : this model only works with the continuous vegetation data.
+ 
+ Incorporate an interaction between habitat*elevation
+ 
+ Model 1:
+ Presence ~ habitat type percentage (choose scale) + elevation + habitat type percentage (choose scale) * elevation
+ 
+Choosing scale - at some point you'll have to decide at what scale you're going to calculate habitat type percentage (i.e. percent meadow at 10m, 20m, etc).  Looking at different scales might be a good thing to do - try the model at varying scales.  If you're having very different results, that might even be helpful - there could potentially be a scale that the squirell is responding to that you didn't sample.
+
+
+ 
+ 
+
